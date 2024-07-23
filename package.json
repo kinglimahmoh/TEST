@@ -1,0 +1,29 @@
+{
+  "name": "sapui5-hello-world",
+  "version": "1.0.0",
+  "description": "A simple SAPUI5 Hello World application",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o",
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openui5/sap.m": "^1.84.0",
+    "@openui5/sap.ui.core": "^1.84.0",
+    "@openui5/sap.ui.layout": "^1.84.0"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3.11.0",
+    "http-server": "^14.1.1",
+    "jasmine-core": "^5.2.0",
+    "karma": "^6.4.3",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-qunit": "^4.1.2",
+    "karma-ui5": "^3.0.4",
+    "qunit": "^2.17.2",
+    "ui5-middleware-livereload": "^3.0.3"
+  }
+}

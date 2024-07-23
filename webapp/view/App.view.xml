@@ -1,0 +1,12 @@
+<mvc:View
+   controllerName="sap.ui.demo.helloworld.controller.App"
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns="sap.m">
+   <App>
+      <Page title="Hello World">
+         <content>
+            <Text text="Hello World" />
+         </content>
+      </Page>
+   </App>
+</mvc:View>

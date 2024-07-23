@@ -1,0 +1,26 @@
+/* styles.css */
+
+/* Basic reset to ensure consistency across browsers */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the content vertically and horizontally */
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Optional: Style the container to add some padding and border */
+.sapUiBody {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for content */
+}

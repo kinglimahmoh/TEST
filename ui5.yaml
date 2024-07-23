@@ -1,0 +1,20 @@
+specVersion: '2.3'
+type: application
+metadata:
+  name: sapui5-hello-world
+resources:
+  configuration:
+    paths:
+      webapp: webapp
+builder:
+  customTasks:
+    - name: ui5-task-zipper
+      afterTask: generateCachebusterInfo
+      configuration:
+        archiveName: my-archive.zip
+server:
+  customMiddleware:
+    - name: ui5-middleware-livereload
+      afterMiddleware: compression
+      configuration:
+        port: 9877
